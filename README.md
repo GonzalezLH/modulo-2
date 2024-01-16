@@ -17,3 +17,24 @@ Dados n1=10, n2=20 y n3=30, informar:
 a) el total.
 b) el promedio.
 c) el resto entre n2 y n1.
+
+package com.educacionit;
+
+import java.util.Scanner;
+
+public class sumarestamultidivision {
+
+	public static void main(String[] args) {
+	
+
+int n1 = 5;
+int n2 = 10;
+int n3 = 20;
+int resultado= n1 + n2 + n3;
+double promedio = (n1+n2+n3)/3;
+double resto = (n1+n2+n3)%3;
+System.out.println("resultado total es :"+ resultado);
+System.out.println("el promedio es : "+ promedio);
+System.out.println("El resto es: " + resto);
+
+
