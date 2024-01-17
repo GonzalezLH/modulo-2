@@ -4,9 +4,29 @@
 ejercicio uno:
 crear un programa en java que, dado un numero entero de horas, muestre el equivalente en semana ,dias y horas
 
+package educacionit.com;
+import java.util.Scanner;
+public class dias{
+public static void main (String[] args) {
+	Scanner pronostico = new Scanner (System.in);
+	int horas;
+	int dias;
+	int semanas;
+	int calculo; 
+	System.out.println("calcular tiempo: ");
+	calculo = pronostico.nextInt();
+	semanas = calculo /168; 
+	dias = calculo % 168 / 24;
+	horas = calculo % 24;
+	System.out.println("EL total es: "+ calculo);
+	System.out.println("semanas : "+ semanas);
+	System.out.println("dias :" + dias);
+	System.out.println("horas : "+ horas);
 
 
-ejercicio dos:
+
+
+EJERCICIO DOS:
 resolver los enunciados desarrollando el codigo.
 Dados n1=5, n2=10, n3=20, infomar
 
